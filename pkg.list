@@ -3,6 +3,8 @@ procps
 zsh
 curl
 git
+zsh
+file
 make
 texlive-full
 latexmk

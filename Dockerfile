@@ -12,6 +12,7 @@ LABEL org.opencontainers.image.authors="Giovanni Stracquadanio"
 
 # copy package list
 COPY pkg.list .
+COPY assets/.zshrc /root/.zshrc
 
 # Install basic tools
 RUN apt-get update \
@@ -21,4 +22,4 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 ENTRYPOINT ["tini", "--"]
-CMD ["/bin/bash"]
+CMD ["/bin/zsh"]
