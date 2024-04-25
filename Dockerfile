@@ -5,7 +5,7 @@ LABEL org.opencontainers.image.description="A full TexLive image ready to use wi
 LABEL org.opencontainers.image.url="https://github.com/stracquadaniolab/docker-latex"
 LABEL org.opencontainers.image.documentation="https://github.com/stracquadaniolab/docker-latex"
 LABEL org.opencontainers.image.source="https://github.com/stracquadaniolab/docker-latex"
-LABEL org.opencontainers.image.revision="2024.4.24"
+LABEL org.opencontainers.image.revision="2024.4.25"
 LABEL org.opencontainers.image.vendor="stracquadaniolab"
 LABEL org.opencontainers.image.authors="Giovanni Stracquadanio"
 
