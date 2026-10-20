@@ -6,7 +6,7 @@
 
 A full Latex image for text editing.
 
-The image is based on ubuntu and includes the following packages:
+The image is based on Debian 13 (trixie) and includes the following packages:
 - texlive-full
 - latexmk
 - biber
